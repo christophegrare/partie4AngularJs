@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercice1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+        <link href="assets/css/css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <!-- ici ng-app pour utiliser angularjs ng-init est egal a 0-->
+    <body ng-app  ng-init="count = 0">
+        <!-- Faire une page HTML contenant un bouton + , un bouton - et
+        un paragraphe. Au clic sur le bouton + incrémenter le chiffre présent
+        dans le paragraphe de 1. Au clic sur le bouton + décrémenter le chiffre de 1. -->
+        <!-- au click on met -1 a count-->
+        <button ng-click="count = count - 1">-1</button>
+        <!-- dans la balise p on appel count -->
+        <p>{{count}}</p>
+        <!-- au click on met +1 a count -->
+        <button ng-click="count = count + 1">+1</button><hr/>
+        <a href="../exercice2/index.html">suivant</a>
+    </body>
+</html>

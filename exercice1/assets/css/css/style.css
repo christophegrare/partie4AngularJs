@@ -1,0 +1,13 @@
+body{
+    background-color: grey;
+    text-align: center;
+}
+p{
+    display: inline;
+    font-size: 150px;
+}
+button{
+    background-color: pink;
+    color: red;
+    font-size: 80px;
+}

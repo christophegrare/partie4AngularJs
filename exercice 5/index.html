@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercice 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+        <link href="../exercice 6/assets/css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <!-- ici ng-app pour utiliser angularjs -->
+    <body ng-app>
+        <!-- Faire une page HTML contenant un bouton Afficher et un bouton 
+        Cacher. Au clic sur l'un ou sur l'autre afficher 
+        ou non un paragraphe de votre choix. -->
+        <div>
+            <!-- au click on declare myshow true pour afficher -->
+            <button ng-click="myShow = true">afficher</button>
+            <p ng-show="myShow">Paragraphe de mon choix.</p>
+            <!-- au click on declare myShow false pour cacher -->
+            <button ng-click="myShow = false">cacher</button>
+        </div>
+        <a href="../exercice4/index.html">précédent</a>
+        <a href="../exercice 6/index.html">suivant</a>
+    </body>
+</html>
